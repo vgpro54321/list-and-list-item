@@ -2,8 +2,16 @@
 <p>Start editing to see some magic happen :)</p>
 
 <app-item-list>
-  <app-item text="1"></app-item>
-  <app-item text="2"></app-item>
-  <app-item text="3"></app-item>
-  <app-item text="4"></app-item>
+  <app-item text="1">
+    <ng-container item-content> content </ng-container>
+    <ng-container item-footer> 1 </ng-container>
+  </app-item>
+  <app-item text="2">
+    <ng-container item-content> content </ng-container>
+    <ng-container item-footer> 2 </ng-container>
+  </app-item>
+  <app-item text="3">
+    <ng-container item-content> content </ng-container>
+    <ng-container item-footer> 3 </ng-container>
+  </app-item>
 </app-item-list>
